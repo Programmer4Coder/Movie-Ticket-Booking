@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Ticket Booking</h1>
+    </header>
+
+    <section class="movies">
+        <h2>Now Showing</h2>
+        <div class="movie">
+            <img src="dune part 2.avif" alt="DUNE Part 2">
+            <h3>DUNE Part 2</h3>
+            <p>Showtimes:</p>
+            <ul>
+                <li><button>Showtime 1</button></li>
+                <li><button>Showtime 2</button></li>
+            </ul>
+        </div>
+        <div class="movie">
+            <img src="12th fail.avif" alt="12th Fail">
+            <h3>12th Fail</h3>
+            <p>Showtimes:</p>
+            <ul>
+                <li><button>Showtime 1</button></li>
+                <li><button>Showtime 2</button></li>
+            </ul>
+        </div>
+        <div class="movie">
+            <img src="Article 370.avif" alt="Article 370">
+            <h3>Article 370</h3>
+            <p>Showtimes:</p>
+            <ul>
+                <li><button>Showtime 1</button></li>
+                <li><button>Showtime 2</button></li>
+            </ul>
+        </div>
+        <div class="movie">
+            <img src="fighter.avif" alt="Fighter">
+            <h3>Fighter</h3>
+            <p>Showtimes:</p>
+            <ul>
+                <li><button>Showtime 1</button></li>
+                <li><button>Showtime 2</button></li>
+            </ul>
+        </div>
+        <div class="movie">
+            <img src="kung fu panda.avif" alt="Kung Fu Panda 4">
+            <h3>Kung Fu Panda 4</h3>
+            <p>Showtimes:</p>
+            <ul>
+                <li><button>Showtime 1</button></li>
+                <li><button>Showtime 2</button></li>
+            </ul>
+        </div>
+        <div class="movie">
+            <img src="openhemier.avif" alt="Oppenhemier">
+            <h3>Oppenhemier</h3>
+            <p>Showtimes:</p>
+            <ul>
+                <li><button>Showtime 1</button></li>
+                <li><button>Showtime 2</button></li>
+            </ul>
+        </div>
+        <div class="movie">
+            <img src="Shaitaan.avif" alt="Shaitan">
+            <h3>Shaitan</h3>
+            <p>Showtimes:</p>
+            <ul>
+                <li><button>Showtime 1</button></li>
+                <li><button>Showtime 2</button></li>
+            </ul>
+        </div>
+        <div class="movie">
+            <img src="wish.avif" alt="Wish">
+            <h3>Movie Title 1</h3>
+            <p>Showtimes:</p>
+            <ul>
+                <li><button>Showtime 1</button></li>
+                <li><button>Showtime 2</button></li>
+            </ul>
+        </div>
+        <div class="movie">
+            <img src="wonka.avif" alt="Wonka">
+            <h3>Wonka</h3>
+            <p>Showtimes:</p>
+            <ul>
+                <li><button>Showtime 1</button></li>
+                <li><button>Showtime 2</button></li>
+            </ul>
+        </div>
+        <div class="movie">
+            <img src="Yodha.avif" alt="Yodha">
+            <h3>Yodha</h3>
+            <p>Showtimes:</p>
+            <ul>
+                <li><button>Showtime 1</button></li>
+                <li><button>Showtime 2</button></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="booking-form">
+        <h2>Book Tickets</h2>
+        <form action="thank u.webp" method="post">
+            <label for="movie">Movie:</label>
+            <select name="movie" id="movie">
+                <option value="movie1">Dune Part 2</option>
+                <option value="movie2">12th Fail</option>
+                <option value="movie3">Article 370</option>
+                <option value="movie4">Fighter</option>
+                <option value="movie5">Kung Fu Panda 4</option>
+                <option value="movie6">Oppenhemier</option>
+                <option value="movie7">Shaitan</option>
+                <option value="movie8">Wish</option>
+                <option value="movie9">Wonka</option>
+                <option value="movie10">Yodha</option>
+            </select>
+
+            <label for="showtime">Showtime:</label>
+            <select name="showtime" id="showtime">
+                <option value="showtime1">Showtime 1</option>
+                <option value="showtime2">Showtime 2</option>
+            </select>
+
+            <label for="seats">Number of Seats:</label>
+            <input type="number" name="seats" id="seats" min="1" max="10" required>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Movie Ticket Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
